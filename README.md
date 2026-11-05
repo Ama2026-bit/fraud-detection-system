@@ -8,6 +8,7 @@ A Jupyter Notebook project that trains and evaluates a Random Forest classifier 
 .
 ├── main.ipynb                         # End-to-end training and evaluation notebook
 ├── models/
+│   ├── README.md                       # Model artifact notes
 │   └── fraud_detection_model.pkl      # Serialized model produced by the notebook
 ├── requirements.txt                   # Python packages used by the notebook
 └── .gitignore                         # Excludes local data, environments, and caches
@@ -40,11 +41,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Download `creditcard.csv` from Kaggle, then place it at:
-
-```text
-data/creditcard.csv
-```
+Download `creditcard.csv` from Kaggle, then place it at `data/creditcard.csv`.
 
 ## Run the notebook
 
