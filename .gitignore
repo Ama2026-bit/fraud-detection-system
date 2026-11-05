@@ -1,0 +1,24 @@
+# Local dataset and data exports
+data/
+DATA BASE/
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
